@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learn</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+    <h1>Form to apply for sigma web development </h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your name</label>
+            <input type="text" id="username" name="username" placeholder="Enter Name" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Subscribe" id="Subscribe" value="yes">
+            <label for="Subscribe">Subscribe to harry</label>
+            <input type="checkbox" name="Subscribe" id="1" value="no">
+            <label for="1">Not Subscribe</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="fruits">Fav. Fruits</label>
+            <br>
+            <select name="Fruits" id="fruits">
+                <option value="Apple">Apple</option>
+                <option value="Gauava">Gauava</option>
+                <option value="Mango">Mango</option>
+                <option value="Graph">Graph</option>
+                <option value="Orange">Orange</option>
+            </select>
+        </div>
+    </form>    
+</body>
+</html>
